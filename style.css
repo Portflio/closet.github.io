@@ -1,0 +1,2641 @@
+
+
+h1{
+    font-size: 40px;
+}
+
+.modal-header > q{
+    color: #7d8081; 
+    text-align: right;
+    right: 50%;
+}
+
+
+body {
+    background: #e2e2e2;
+    font-family: Neuton;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+main article {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    height: 1000px;
+}
+
+/* ------------------------- */
+/* Enlaces del NAV */
+/* ------------------------- */
+
+
+.menu {
+    background: #232F3E;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.menu .contenedor-botones-menu {
+    /* display: flex; */
+    display: none;
+    justify-content: space-between;
+    background: #232F3E;
+}
+
+.menu .contenedor-botones-menu {
+    /* display: flex; */
+    display: none;
+    justify-content: space-between;
+    background: #232F3E;
+}
+
+.menu .contenedor-botones-menu button {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+}
+
+.enlaces2{
+    padding-top: 15px;
+
+ }
+.enlaces2 a{
+   padding: 15px;
+   top: 30px;
+}
+
+.menu .contenedor-botones-menu .btn-menu-cerrar.activo {
+    display: inline-block;
+}
+
+.menu .contenedor-enlaces-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .btn-departamentos {
+    color: #fff;
+    padding: 7px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+    cursor: default;
+}
+
+
+
+
+
+.menu .btn-departamentos span {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu .contenedor-enlaces-nav .enlaces a {
+    color: #ccc;
+    border: 1px solid transparent;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 17px;
+    transition:0.4s;
+}
+
+.menu .contenedor-enlaces-nav .enlaces a:hover {
+    color:white;
+    transition:0.9s;
+}
+
+/* ------------------------- */
+/* GRID */
+/* ------------------------- */
+
+/* ------------------------- */
+/* Categorias */
+/* ------------------------- */
+
+
+
+
+
+/* ------------------------- */
+/* Mediaqueies */
+/* ------------------------- */
+@media screen and (max-width: 1000px) {
+    .menu .contenedor-enlaces-nav {
+        padding: 0 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    
+
+    .menu .contenedor-botones-menu {
+        display: flex;
+    }
+
+    .menu .contenedor-enlaces-nav {
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        left: 0;
+        background: #232F3F;
+        height: 100vh;
+        width: 80%;
+        z-index: 2000;
+        transition: .3s ease all;
+        transform: translate(-100%);
+    }
+
+    .menu .contenedor-enlaces-nav.activo {
+        transform: translate(0%);
+    }
+
+    .menu .btn-departamentos {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        
+    }
+
+    .menu .btn-departamentos i {
+        position: static;
+        margin-left: 20px;
+        transform: rotate(-90deg);
+
+    }
+
+    .menu .enlaces {
+        width: 100%;
+    }
+
+    .menu .enlaces a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    font-size: 35px;
+    padding: 10px;
+}
+
+
+.hero-section {
+    background: url(hero-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero-section:before {
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 1.5em;
+}
+
+.hero-section h2 {
+    font-size: 1.2em;
+}
+
+.header{
+    background-color:#1b3039;
+    display:flex;
+  
+    align-items:center;
+    height: 85px;
+  
+}
+
+
+
+@font-face{
+        font-family: Cinzel;
+        src:url(font/Cinzel.ttf);
+        font-weight:bold;
+        font-style:bold;
+}
+
+@font-face{
+        font-family: Neuton;
+        src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+}
+
+h2{
+        font-family: Cinzel;
+        
+}
+
+
+p{
+        font-family: Neuton;
+       
+}
+
+
+html{
+    scroll-behavior: smooth;
+        
+}
+
+
+footer .titulo{
+         font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+    
+}
+
+.columna3 li{
+   font-size: 25px;
+}
+
+.columna3 li{
+    color:#a7aca1;
+ }
+ .columna3 a{
+    color: white;
+ }
+
+.iconos-redes1{
+   padding: 10px;
+}
+.iconos-redes1{
+    display: flex;
+    font-family: Neuton;
+  src:url(font/Neuton-Light.ttf);
+   font-weight:bold;
+   font-style:bold;
+  
+}
+.iconos-redes1{
+    display: flex;
+    
+}
+
+.fa-instagram{
+    display: inline;
+    font-size:30px;
+    padding-left:15px;
+}
+
+
+.fa-facebook-f{
+    display: inline;
+    font-size:30px;
+    padding-left:15px;
+ }
+
+
+.color2 {
+        background: gray;
+}
+
+
+.pie-pagina {
+    width:100%;
+    background-color:#0a141d;
+        
+}
+.adicional {
+    width:100%;
+    background-color:darkred;
+    }
+
+.footer1{
+    background: #000;
+    width:100%;
+    color:#fff;
+}
+.footer-fila1{
+    background: #0000;
+}
+
+.bg-redark{
+    background-color: #161616;
+        align-items: center;
+        color: #fff;
+        padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17pz;
+    color: #a7aca1;
+    transition-duration: 0.3s;
+    opacity: .9;
+}
+p{
+    font-size: 17px;
+}
+a:hover{
+    color:white;
+    transition-duration: 0.3s;
+    opacity: 1.0;
+    
+}
+i{
+    font-size: 25 px ;
+}
+
+.galeria{
+    font-family: Neuton;
+        font-weight:bold;
+        font-style:bold;
+        border: none;
+}
+.galeria h1{
+    
+    font-weight: 300;
+}
+.contenedor-imagenes{
+    
+    width:100%;
+    
+}
+.contenedor-imagenes .imagen{
+   position: relative;
+}
+.imagen img{
+    width:100%;
+
+    height: 100%;
+}
+
+
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.1) ;
+    transition: .2s ease;
+    overflow: hidden;
+
+}
+.overlay h2{
+    color:#fff;
+    font-size: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+   
+}
+.imagen:hover .overlay{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+
+
+/* SVG ESTRUCTURA*/
+/* DIVISIONES CENTRALES */
+.uno rect{
+    transition: 1.0s ease;
+    stroke:#FA3D3D;
+    cursor: pointer;
+    stroke-width:10px;
+}
+
+.uno rect:hover{
+    stroke-width:35px;
+    stroke:#FA3D3D;
+    transition: 0.9s ease;
+}
+/* DIVISIONES CENTRALES */
+
+/* DIVISIONES CENTRALES */
+.dos rect{
+    transition: 1.0s ease;
+    stroke:#EFD813;
+    cursor: pointer;
+    stroke-width:10px;
+}
+
+.dos rect:hover{
+    stroke-width:35px;
+    stroke:#EFD813;
+    transition: 0.9s ease;
+}
+/* DIVISIONES CENTRALES */
+
+/* COLGAROPA */
+.tres rect{
+    transition: 1.0s ease;
+    stroke:#FF5733;
+    cursor: pointer;
+    fill: #C8CD80 !important;
+    stroke-width:10px;
+}
+.tres rect:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+.tres path{
+    transition: 1.0s ease;
+    stroke:#FF5733;
+    cursor: pointer;
+    stroke-width:10px;
+}
+.tres path:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* COLGAROPA */
+
+/* DIVISIONES */
+.cuatro rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#20B2AA;
+}
+.cuatro rect:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* DIVISIONES */
+
+/* DIVISION CENTRAL INFERIOR */
+.cuatro .CENTRAL-INFERIOR{
+    stroke-width:10px;
+    stroke:#6AF23E;
+    transition: 0.9s ease;
+}
+.cuatro .CENTRAL-INFERIOR:hover{
+    stroke-width:35px;
+    stroke:#6AF23E;
+    transition: 0.9s ease;
+}
+/* DIVISION CENTRAL INFERIOR */
+
+/* TORNILLO MADERA ESQUINEROS */
+.TORNILLOSMAD circle{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:15px;
+    stroke:#20B2AA;
+}
+.TORNILLOSMAD circle:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* TORNILLO MADERA ESQUINEROS */
+
+/* TORNILLO MADERA EXTERNO INTERIOR */
+.TORNILLOSMAD2 circle{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:15px;
+    stroke:#20B2AA;
+}
+.TORNILLOSMAD2 circle:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* TORNILLO MADERA EXTERNO INTERIOR */
+
+/* TORNILLO COLGAROPA */
+.TORNILLOSMET1 circle{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#F4A460;
+}
+.TORNILLOSMET1 circle:hover{
+    stroke-width:35px;
+    stroke:#F4A460;
+    transition: 0.9s ease;
+}
+/* TORNILLO COLGAROPA */
+
+/* TORNILLO SOPORTES ANGULOS */
+.TORNILLOSMET2 circle{
+    transition: 1.0s ease;
+    cursor: pointer;
+     stroke-width:10px;
+    stroke:#B8860B;
+}
+.TORNILLOSMET2 circle:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+}
+/* TORNILLO SOPORTES ANGULOS */
+/* SVG ESTRUCTURA */
+
+
+
+/* PROGRAMACION PARA SELECTOR PRIMERO */
+
+/* PRIMER SELECTOR */
+.UNO1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FA3D3D;
+}
+.UNO1:hover{
+    stroke-width:35px;
+    stroke:#FA3D3D;
+    transition: 0.9s ease;
+}
+
+.DOS1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#EFD813;
+}
+.DOS1:hover{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#EFD813;
+    stroke-width:35px;
+}
+
+.selectable-elements {
+    .box[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FA3D3D;
+          transition: 0.9s ease;      
+          }
+          .UNO1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FA3D3D;
+          transition: 0.9s ease;
+          }
+          .DOS1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#EFD813;
+          transition: 0.9s ease;
+          }      
+          .TRES1[data-active="true"]{
+          stroke-width:45px;
+          stroke:#105FE2;
+          transition: 0.9s ease;
+          }
+           .CUATRO1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#20B2AA;
+          transition: 0.9s ease;
+          }
+           .CINCO1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#6AF23E;
+          transition: 0.9s ease;
+          }
+           .SEIS1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FF5733;
+          transition: 0.9s ease;
+          }
+
+
+          .UNO2[data-active="true"]{
+          stroke-width:40px;
+          stroke:#18FFDF;
+          transition: 0.9s ease;
+          }
+          .DOS2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FF14FF;
+          transition: 0.9s ease;
+          }      
+          .TRES2[data-active="true"]{
+          stroke-width:45px;
+          stroke:#B8860B;
+          transition: 0.9s ease;
+          }
+           .CUATRO2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FDB313;
+          transition: 0.9s ease;
+          }
+           .CINCO2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ADFF2F;
+          transition: 0.9s ease;
+          }
+        .SEIS2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#309C02;
+          transition: 0.9s ease;
+          }
+
+          .UNO3[data-active="true"]{
+          stroke-width:40px;
+          stroke:#0034FF;
+          transition: 0.9s ease;
+          }
+          .DOS3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ECFF00;
+          transition: 0.9s ease;
+          }      
+          .TRES3[data-active="true"]{
+          stroke-width:45px;
+          stroke:#0034FF;
+          transition: 0.9s ease;
+          }
+           .CUATRO3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ECFF00;
+          transition: 0.9s ease;
+          }
+          .CINCO3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#0034FF;
+          transition: 0.9s ease;
+          }
+          .SEIS3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ECFF00;
+          transition: 0.9s ease;
+          }
+
+
+     }
+
+-------------------------------------
+
+
+
+.DOS1:hover{
+    stroke-width:35px;
+    stroke:#FF14FF;
+    transition: 0.9s ease;
+}
+
+/* TERCERO SELECTOR */
+.TRES1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#105FE2;
+}
+
+.TRES1:hover{
+    stroke-width:35px;
+    stroke:#105FE2;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+/* CUARTO SELECTOR */
+.CUATRO1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#20B2AA;
+}
+.CUATRO1:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* CUARTO SELECTOR */
+
+
+/* QUINTO SELECTOR */
+.CINCO1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#6AF23E;
+}
+.CINCO1:hover{
+    stroke-width:35px;
+    stroke:#6AF23E;
+    transition: 0.9s ease;
+}
+/* QUINTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.SEIS1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF5733;
+}
+.SEIS1:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* PROGRAMACION PARA SELECTOR PRIMERO */
+
+
+
+/* SVG FRONTAL */
+/* PUERTAS ARMARIO FRONTAL EXTREMO INTERNA/EXTERNA */
+.PUERTAS-ARMARIO{
+    transition: 1.0s ease;
+    stroke-width:13px;
+    stroke:#F9382C;
+    cursor: pointer;
+}
+.PUERTAS-ARMARIO:hover{
+    stroke-width:35px;
+    stroke:#F9382C;
+    transition: 0.9s ease;
+}
+.PUERTAS-ARMARIO rect{
+    transition: 1.0s ease;
+     stroke-width:13px;
+    stroke:#18FFDF;
+    cursor: pointer;
+}
+.PUERTAS-ARMARIO rect:hover{
+    stroke-width:35px;
+    stroke:#18FFDF;
+    transition: 0.9s ease;
+}
+/* PUERTAS ARMARIO FRONTAL EXTREMO INTERNA/EXTERNA */
+
+/* PUERTAS ARMARIO FRONTAL CENTRAL */
+.PUERTA-CENTRAL1 rect{
+     transition: 1.0s ease;
+     cursor: pointer;
+     stroke-width:13px;
+     stroke:#FF14FF;
+
+}
+.PUERTA-CENTRAL1 rect:hover{
+    stroke-width:35px;
+    stroke:#FF14FF;
+    transition: 0.9s ease;
+
+}
+/* PUERTAS ARMARIO FRONTAL CENTRAL */
+
+/* MANIJAS */
+.COLGADORES rect{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:13px;
+    stroke:#ADFF2F;
+}
+.COLGADORES rect:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
+    transition: 0.9s ease;
+}
+/* MANIJAS */
+
+/* TACOS - SOPORTE PISO */
+.TACOS polygon{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:13px;
+    stroke:#309C02;
+}
+.TACOS polygon:hover{
+    stroke-width:35px;
+    stroke:#309C02;
+    transition: 0.9s ease;
+}
+/* TACOS - SOPORTE PISO */
+
+/* INFORMACION CERRADURA */
+.LOCK circle{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#B8860B;
+}
+.LOCK circle:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+    
+}
+/* INFORMACION CERRADURA */
+
+/* INFORMACION CAJON */
+.BOX rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+     cursor: pointer;
+     stroke:#FDB313;
+}
+.BOX rect:hover{
+    stroke-width:35px;
+    stroke:#FDB313;
+    transition: 0.9s ease;
+}
+/* INFORMACION CAJON */
+/* SVG FRONTAL */
+
+
+/* PROGRAMACION PARA SELECTOR SEGUNDO */
+
+/* PRIMER SELECTOR */
+.UNO2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#18FFDF;
+}
+.UNO2:hover{
+    stroke-width:35px;
+    stroke:#18FFDF;
+    transition: 0.9s ease;
+}
+/* PRIMER SELECTOR */
+
+/* SEGUNDO SELECTOR */
+.DOS2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF14FF;
+}
+.DOS2:hover{
+    stroke-width:35px;
+    stroke:#FF14FF;
+    transition: 0.9s ease;
+}
+/* SEGUNDO SELECTOR */
+
+/* TERCERO SELECTOR */
+.TRES2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#B8860B;
+}
+
+.TRES2:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+/* CUARTO SELECTOR */
+.CUATRO2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FDB313;
+}
+.CUATRO2:hover{
+    stroke-width:35px;
+    stroke:#FDB313;
+    transition: 0.9s ease;
+}
+/* CUARTO SELECTOR */
+
+/* QUINTO SELECTOR */
+.CINCO2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ADFF2F;
+}
+.CINCO2:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
+    transition: 0.9s ease;
+}
+/* QUINTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.SEIS2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#309C02;
+}
+.SEIS2:hover{
+    stroke-width:35px;
+    stroke:#309C02;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* PROGRAMACION PARA SELECTOR SEGUNDO */
+
+
+
+
+/* SVG ESPALDAR */
+/* INFORMACION TRIPLEX ESPALDAR */
+.ESPALDAR rect{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#0034FF;
+}
+.ESPALDAR rect:hover{
+    stroke-width:35px;
+    stroke:#0034FF;
+    transition: 0.9s ease;
+}
+/* INFORMACION TRIPLEX ESPALDAR */
+
+/* INFORMACION PUNTILLA ESPALDAR */
+.CIRCULO circle{
+    stroke-width:10px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+.CIRCULO circle:hover{
+    stroke-width:35px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+/* INFORMACION PUNTILLA ESPALDAR */
+/* SVG ESPALDAR */
+
+
+
+
+/* PROGRAMACION PARA SELECTOR TERCERO */
+
+/* PRIMER SELECTOR */
+.UNO3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#0034FF;
+}
+.UNO3:hover{
+    stroke-width:35px;
+    stroke:#0034FF;
+    transition: 0.9s ease;
+}
+/* PRIMER SELECTOR */
+
+/* SEGUNDO SELECTOR */
+.DOS3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ECFF00;
+}
+.DOS3:hover{
+    stroke-width:35px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+/* SEGUNDO SELECTOR */
+
+/* TERCERO SELECTOR */
+.TRES3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#0034FF;
+}
+
+.TRES3:hover{
+    stroke-width:35px;
+    stroke:#0034FF;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+/* CUARTO SELECTOR */
+.CUATRO3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ECFF00;
+}
+.CUATRO3:hover{
+    stroke-width:35px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+/* CUARTO SELECTOR */
+
+/* QUINTO SELECTOR */
+.CINCO3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#0034FF;
+}
+.CINCO3:hover{
+    stroke-width:35px;
+    stroke:#0034FF;
+    transition: 0.9s ease;
+}
+/* QUINTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.SEIS3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ECFF00;
+}
+.SEIS3:hover{
+    stroke-width:35px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.BISAGRAS2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#18FFDF;
+}
+.BISAGRAS2:hover{
+    stroke-width:35px;
+    stroke:#18FFDF;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* PROGRAMACION PARA SELECTOR TERCERO */
+
+
+
+
+/* SECCION FOOTER */
+text1 h5{
+       font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:30px;
+}
+.text-uppercase{
+       font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:30px;
+        align-items: center;
+}
+.text5 p{
+        font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:25px;
+        align-items: center;
+}
+.text5 .titular{
+        font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:30px;
+        align-items: center;
+}
+.text5 .titular2{
+        font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:25px;
+}
+.columna3 a{
+    font-size:25px;
+}
+.row1{
+    font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:25px;
+}
+.columna3 .imgn{
+    max-width:20px;
+    height: 20px;
+}
+.bg-redark1{
+    background-color: #BDC2E4;
+    font-size: 100%;
+    color:#fff;
+}
+.columna5 img{
+    width:170px;
+}
+.fila1 div{
+    display:none;
+}
+.fila1 > .mapa{
+    display:block;
+}
+
+.footer1{
+        background: #000;
+    }
+
+footer{
+    background: #000;
+}
+/* SECCION FOOTER */
+
+
+
+
+/* INFORMACION MODAL */
+.columna3 li{
+    padding: 10px;
+}
+
+.text5{
+    font-size: 50px;
+}
+svg {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.svg1{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+.state:hover {
+  cursor: pointer;
+}
+.modal {
+  text-align: center;
+
+
+}
+.modal-dialog {
+    margin: 0 auto;
+  }
+
+
+
+.btn{
+
+    transition: 0.2s ease;
+    border-width: 1px;
+    border-color: #132b41;
+  }
+  .btn:hover {
+    transition: 0.2s ease;
+    border-color: #0a141d
+  }
+
+.button-container{
+    display: inline-block;
+    text-align: center;
+  }
+
+.alerta1{
+    background:#8E8671;
+    padding: 12px;
+    border-radius: 10px;
+    color:#ffff;
+}
+.form-select{
+  width: 150px;
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.estilo{
+  width: 150px;
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+/* INFORMACION MODAL */
+
+/* INFORMACION STYLE PIECES */
+/* PRIMER SELECTOR */
+.SELECTOR-ELEMENTOS-MADERA ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#b2c411;
+    
+}
+.SELECTOR-ELEMENTOS-MADERA ellipse:hover{
+    stroke-width:70px;
+    stroke:#b2c411;
+    transition: 0.9s ease;
+}
+/* PRIMER SELECTOR */
+
+/* SEGUNDO SELECTOR */
+.SELECTOR-PUERTAS ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#3f47f9;
+}
+.SELECTOR-PUERTAS ellipse:hover{
+    stroke-width:70px;
+    stroke:#3f47f9;
+    transition: 0.9s ease;
+}
+/* SEGUNDO SELECTOR */
+
+/* TERCERO SELECTOR */
+.SELECTOR-TRIPLEX ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#fd2929;
+}
+
+.SELECTOR-TRIPLEX ellipse:hover{
+    stroke-width:70px;
+    stroke:#fd2929;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+
+
+
+
+/*ESTRUCTURA DE SELECTOR PIEZAS*/
+
+
+
+.selectable-elements{
+    .box[data-active="true"]{
+             transition: 0.9s ease;
+          }
+          .SELECTOR-TRIPLEX[data-active="true"]{
+          stroke-width:80px;
+          stroke:#fd2929;
+          transition: 0.9s ease;
+          }
+          .SELECTOR-PUERTAS[data-active="true"]{
+          stroke-width:45px;
+          stroke:#3f47f9;
+          transition: 0.9s ease;
+          }
+          .SELECTOR-ELEMENTOS-MADERA[data-active="true"]{
+          stroke-width:45px;
+          stroke:#b2c411;
+          transition: 0.9s ease;
+         }
+          
+
+     }
+
+/*FIN ESTRUCTURA DE SELECTOR PIEZAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO TRIPLEX*/
+
+.TRIPLEX g{
+    transition: 1.0s ease;
+    stroke-width:20px;
+    cursor: pointer;
+    stroke:#fd2929;
+
+}
+
+.dificil g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#fd2929;
+}
+
+.dificil g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    cursor: pointer;
+    stroke:#fd2929;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO TRIPLEX*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PUERTAS*/
+.PUERTAS g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#3f47f9;
+}
+
+.PUERTAS g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3f47f9;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO PUERTAS*/
+
+
+/*COLOR Y HOVER CONTORNO OBJETO DIVISION-HORIZONTAL-INTERNA*/
+.DIVISION-HORIZONTAL-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#b2c411;
+
+}
+
+.DIVISION-HORIZONTAL-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#b2c411;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO DIVISION-HORIZONTAL-INTERNA*/
+
+
+
+/*COLOR Y HOVER CONTORNO OBJETO DIVISION-VERTICAL-INTERNA*/
+.DIVISION-VERTICAL-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#b2c411;
+
+}
+
+.DIVISION-VERTICAL-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#b2c411;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO DIVISION-VERTICAL-INTERNA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO LATERALES*/
+.LATERALES g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#b2c411;
+
+}
+
+.LATERALES g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#b2c411;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO LATERALES*/
+
+
+
+/*COLOR Y HOVER CONTORNO OBJETO BASE-TECHO*/
+.BASE-TECHO g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#b2c411;
+
+}
+
+.BASE-TECHO g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#b2c411;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO BASE-TECHO*/
+
+
+/*COLOR Y HOVER CONTORNO OBJETO TABLITA*/
+.TABLITA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#b2c411;
+
+}
+
+.TABLITA g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#b2c411;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO TABLITA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTE-MUEBLE*/
+.SOPORTE-MUEBLE g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#b2c411;
+
+}
+
+.SOPORTE-MUEBLE g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#b2c411;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTE-MUEBLE*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTE-MUEBLE*/
+.SOPORTE-MUEBLE2 g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#b2c411;
+
+}
+
+.SOPORTE-MUEBLE2 g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#b2c411;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTE-MUEBLE*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTE-PARED*/
+.SOPORTE-PARED g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#b2c411;
+
+}
+
+.SOPORTE-PARED g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#b2c411;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTE-PARED*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTE-PARED*/
+.SOPORTE-PARED1 g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#b2c411;
+
+}
+
+.SOPORTE-PARED1 g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#b2c411;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTE-PARED*/
+
+/*COLOR Y HOVER CONTORNO OBJETO NAILS*/
+.NAILS circle{
+    transition: 1.0s ease;
+    stroke-width:25px;
+    cursor: pointer;
+    stroke:#3b7c67;
+
+}
+
+.NAILS:hover circle{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3b7c67;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO NAILS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO OBJETO KNOBS*/
+.KNOBS circle{
+    transition: 1.0s ease;
+    stroke-width:25px;
+    cursor: pointer;
+    stroke:#3b7c67;
+
+}
+
+.KNOBS:hover circle{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3b7c67;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO KNOBS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SCREWS-SUPPORTS*/
+.SCREWS-SUPPORTS circle{
+    transition: 1.0s ease;
+    stroke-width:25px;
+    cursor: pointer;
+    stroke:#3b7c67;
+
+}
+
+.SCREWS-SUPPORTS circle:hover {
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3b7c67;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SCREWS-SUPPORTS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SCREW-ALL*/
+.SCREWS-ALL ellipse{
+    transition: 1.0s ease;
+    stroke-width:20px;
+    cursor: pointer;
+    stroke:#3b7c67;
+}
+
+.SCREWS-ALL ellipse:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3b7c67;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SCREW-ALL*/
+
+/*COLOR Y HOVER CONTORNO OBJETO DETALLADO-CORTE-PARED*/
+.DETALLADO-CORTE-PARED g{
+    transition: 1.0s ease;
+    stroke-width:15px;
+    cursor: pointer;
+    stroke:#1ca48d;
+
+}
+
+.DETALLADO-CORTE-PARED g:hover {
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#1ca48d;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO DETALLADO-CORTE-PARED*/
+
+/*COLOR Y HOVER CONTORNO OBJETO DETALLADO-CORTE-MUEBLE*/
+.DETALLADO-CORTE-MUEBLE g{
+    transition: 1.0s ease;
+    stroke-width:15px;
+    cursor: pointer;
+    stroke:#1ca48d;
+}
+
+.DETALLADO-CORTE-MUEBLE g:hover {
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#1ca48d;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO DETALLADO-CORTE-MUEBLE*/
+
+/*COLOR Y HOVER CONTORNO OBJETO BISAGRAS*/
+
+.BISAGRAS path{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#1CA5A1;
+
+}
+.BISAGRAS line{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#1CA5A1;
+
+}
+
+.BISAGRAS ellipse{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    cursor: pointer;
+    stroke:#1CA5A1;
+
+}
+
+.BISAGRAS polygon{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#1CA5A1;
+
+}
+.BISAGRAS .WEY:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#1CA5A1;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO BISAGRAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+.TORNILLO9 ellipse{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#1CA5A1;
+
+}
+.TORNILLO9 ellipse:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#1CA5A1;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO BISAGRAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+.TORNILLO3 circle{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#1CA5A1;
+
+}
+.TORNILLO3 circle:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#1CA5A1;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO BISAGRAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+
+.SOPORTES-2 path{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+.SOPORTES-2 line{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+
+.SOPORTES-2 ellipse{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+
+.SOPORTES-2 polygon{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+.SOPORTES-2 .WEY2:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#dcaf36;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+
+.SOPORTES-21 path{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+.SOPORTES-21 line{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+
+.SOPORTES-21 ellipse{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+
+.SOPORTES-21 polygon{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+.SOPORTES-21 .WEY2:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#dcaf36;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+
+
+
+/*SEGUNDO MODULO INSTRUCTION KITCHEN FORNITURE*/
+
+
+
+/* COLOR Y HOVER CONTORNO OBJETO SELECTOR PRIMER MODULO STRUCTURE ASSEMBLY*/
+
+.SELECCION1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#9149f9;
+}
+.SELECCION1:hover{
+    stroke-width:35px;
+    stroke:#9149f9;
+    transition: 0.9s ease;
+}
+.SELECCION2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#b2c411;
+}
+.SELECCION2:hover{
+    stroke-width:35px;
+    stroke:#b2c411;
+    transition: 0.9s ease;
+}
+.SELECCION3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#437800;
+}
+.SELECCION3:hover{
+    stroke-width:35px;
+    stroke:#437800;
+    transition: 0.9s ease;
+}
+.SELECCION4{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#4f84f5;
+}
+.SELECCION4:hover{
+    stroke-width:35px;
+    stroke:#4f84f5;
+    transition: 0.9s ease;
+}
+.SELECCION5{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ea84f7;
+}
+.SELECCION5:hover{
+    stroke-width:35px;
+    stroke:#ea84f7;
+    transition: 0.9s ease;
+}
+.SELECCION6{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#f2614a;
+}
+.SELECCION6:hover{
+    stroke-width:35px;
+    stroke:#f2614a;
+    transition: 0.9s ease;
+}
+
+.selectable-elements {
+    .box[data-active="true"]{
+          transition: 0.9s ease;      
+          }
+          .SELECCION1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#9149f9;
+          transition: 0.9s ease;
+          }
+          .SELECCION2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#b2c411;
+          transition: 0.9s ease;
+          }
+          .SELECCION3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#437800;
+          transition: 0.9s ease;
+          }
+          .SELECCION4[data-active="true"]{
+          stroke-width:35px;
+          stroke:#4f84f5;
+          transition: 0.9s ease;
+          }
+          .SELECCION5[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ea84f7;
+          transition: 0.9s ease;
+          }
+          .SELECCION6[data-active="true"]{
+          stroke-width:35px;
+          stroke:#f2614a;
+          transition: 0.9s ease;
+          }       
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SELECTOR PRIMER MODULO STRUCTURE ASSEMBLY*/
+
+/*COLOR Y HOVER CONTORNO OBJETO TORNILLERIA SOPORTES*/
+.TORNILLERIA-SOPORTES circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#f7fa25;
+}
+.TORNILLERIA-SOPORTES circle:hover{
+    stroke-width:35px;
+    stroke:#f7fa25;
+     transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO TORNILLERIA SOPORTES*/
+
+/*COLOR Y HOVER CONTORNO OBJETO TORNILLERIA EXTERIOR*/
+.TORNILLERIA-EXTERIOR circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-EXTERIOR circle:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO TORNILLERIA EXTERIOR*/
+
+/*COLOR Y HOVER CONTORNO OBJETO TORNILLERIA TABLITA DELANTERA*/
+.TORNILLERIA-TABLITA-DELANTERA circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-TABLITA-DELANTERA circle:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+
+.TORNILLERIA-TABLITA-DELANTERA circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-TABLITA-DELANTERA circle:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO TABLITA DELANTERA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO TABLITAS TRASERAS*/
+.TORNILLERIA-TABLITAS-TRASERAS circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-TABLITAS-TRASERAS circle:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+.TORNILLERIA-TABLITAS-TRASERAS ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-TABLITAS-TRASERAS ellipse:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO TABLITAS TRASERAS*/
+
+/*FIN SEGUNDO MODULO INSTRUCTION KITCHEN FORNITURE*/
+
+
+
+
+
+
+/*TERCER MODULO INSTRUCTION DOOR INSTALLATION*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SELECTOR DOOR INSTALLATION*/
+
+.SELECCIONA2 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#9a6f0d;
+}
+.SELECCIONA2 circle:hover{
+    stroke-width:50px;
+    stroke:#9a6f0d;
+    transition: 0.9s ease;
+}
+.SCREWS-SUPPORTS1 circle{
+    stroke-width:30px;
+    cursor: pointer;
+    stroke:#1efeea;
+    transition: 1.0s ease;
+}
+
+.SCREWS-SUPPORTS1 circle:hover {
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#1efeea;
+}
+
+.SELECCION-MANIJAS circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+.SELECCION-MANIJAS circle:hover{
+    stroke-width:50px;
+    stroke:#2557de;
+    transition: 0.9s ease;
+}
+.selectable-elements { 
+    .box[data-active="true"]{   
+        transition: 0.9s ease;
+    } 
+      
+    .SCREWS-SUPPORTS1[data-active="true"]{
+      stroke-width:35px;
+      stroke:#1efeea;
+      transition: 0.9s ease;
+      }
+      .SELECCIONA2[data-active="true"]{
+      stroke-width:35px;
+      stroke:#9a6f0d;
+      transition: 0.9s ease;
+      }
+      .SELECCIONA3[data-active="true"]{
+      stroke-width:35px;
+      stroke:#2557de;
+      transition: 0.9s ease;
+      }
+    
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO SELECTOR DOOR INSTALLATION*/
+
+/*COLOR Y HOVER CONTORNO OBJETO TABLITA PUERTA*/
+.TABLITA-PUERTA g{
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#1efeea;
+    transition: 0.9s ease;
+}
+
+.TABLITA-PUERTA g:hover{
+    stroke-width:50px;
+    stroke:#1efeea;
+    transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO TABLITA PUERTA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PUERTA IZQUIERDA EXTREMA*/
+.PUERTA-IZQUIERDA-EXTREMA g{
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#9a6f0d;
+    transition: 0.9s ease;
+}
+
+.PUERTA-IZQUIERDA-EXTREMA g:hover{
+    stroke-width:30px;
+    stroke:#9a6f0d;
+    transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO PUERTA IZQUIERDA EXTREMA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PUERTA DERECHA EXTREMA*/
+.PUERTA-DERECHA-EXTREMA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#9a6f0d;
+}
+.PUERTA-DERECHA-EXTREMA g:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#9a6f0d;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO PUERTA DERECHA EXTREMA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PUERTA DERECHA INTERNA*/
+.PUERTA-DERECHA-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#9a6f0d;
+}
+.PUERTA-DERECHA-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#9a6f0d;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO PUERTA DERECHA INTERNA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PUERTA IZQUIERDA INTERNA*/
+.PUERTA-IZQUIERDA-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#9a6f0d;
+}
+.PUERTA-IZQUIERDA-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#9a6f0d;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO PUERTA IZQUIERDA INTERNA*/
+
+
+/*COLOR Y HOVER CONTORNO OBJETO MANIJA IZQUIERDA INTERNA*/
+.MANIJA-IZQUIERDA-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#2557de;
+}
+.MANIJA-IZQUIERDA-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO MANIJA IZQUIERDA INTERNA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO MANIJA IZQUIERDA EXTREMA*/
+.MANIJA-IZQUIERDA-EXTREMA rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#2557de;
+}
+.MANIJA-IZQUIERDA-EXTREMA rect:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO MANIJA IZQUIERDA EXTREMA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO MANIJA DERECHA INTERNA*/
+.MANIJA-DERECHA-INTERNA rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#2557de;
+}
+.MANIJA-DERECHA-INTERNA rect:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO MANIJA DERECHA INTERNA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO MANIJA DERECHA EXTREMA*/
+.MANIJA-DERECHA-EXTREMA rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#2557de;
+}
+.MANIJA-DERECHA-EXTREMA rect:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO MANIJA DERECHA EXTREMA*/
+
+
+/*TEXTO*/
+.Texto{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#000;
+}
+/*FIN TEXTO*/
+
+/*FIN TERCER MODULO INSTRUCTION DOOR INSTALLATION*/
+
+
+/*CUARTO MODULO INSTRUCTION RESPALDO*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SELECTOR RESPALDO*/
+.SELECCIONC1 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#5ee948;
+}
+.SELECCIONC1 circle:hover{
+    stroke-width:50px;
+    stroke:#5ee948;
+    transition: 0.9s ease;
+}
+
+.SELECCIONC2 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#033895;
+}
+.SELECCIONC2 circle:hover{
+    stroke-width:50px;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+
+.SELECCIONC3 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#cd54d7;
+}
+.SELECCIONC3 circle:hover{
+    stroke-width:50px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+
+.SELECCIONC4 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#e33c24;
+}
+.SELECCIONC4 circle:hover{
+    stroke-width:50px;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+
+
+.selectable-elements { 
+    .box[data-active="true"]{   
+        transition: 0.9s ease;
+    }  
+    .SELECCIONC1[data-active="true"]{
+      stroke-width:35px;
+      stroke:#5ee948;
+      transition: 0.9s ease;
+      }
+      .SELECCIONC2[data-active="true"]{
+      stroke-width:40px;
+      stroke:#033895;
+      transition: 0.9s ease;
+      }
+      .SELECCIONC3[data-active="true"]{
+      stroke-width:35px;
+      stroke:#cd54d7;
+      transition: 0.9s ease;
+      }
+      .SELECCIONC4[data-active="true"]{
+      stroke-width:35px;
+      stroke:#e33c24;
+      transition: 0.9s ease;
+    }
+    .SELECTOR-ELEMENTOS-MADERA-SUBB[data-active="true"]{
+      stroke-width:70px;
+      stroke:#c874e9;
+      transition: 0.9s ease;
+    }
+    .SELECTOR-TRIPLEXX[data-active="true"]{
+    stroke-width:70px;
+    stroke:#5a76f1;
+    transition: 0.9s ease;
+    }
+  
+    
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SELECTOR RESPALDO*/
+
+/*COLOR Y HOVER CONTORNO OBJETO TRIPLEX*/
+.TRIPLEX5 rect{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#033895;
+}
+.TRIPLEX5 rect:hover{
+    stroke-width:50px;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO TRIPLEX*/
+
+/*COLOR Y HOVER CONTORNO OBJETO TABLITAS TRASERAS*/
+.TABLITAS-TRASERAS g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:20px;
+    stroke:#5ee948;
+}
+.TABLITAS-TRASERAS g:hover{
+    stroke-width:45px;
+    stroke:#5ee948;
+    transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO TABLITAS TRASERAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PUNTILLAS5*/
+.PUNTILLAS5 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#033895;
+}
+.PUNTILLAS5 circle:hover{
+    stroke-width:40px;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO PUNTILLAS5*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTE MUEBLE*/
+.SOPORTE-MUEBLE rect{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#cd54d7;
+}
+.SOPORTE-MUEBLE rect:hover{
+    stroke-width:40px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+.SOPORTE-MUEBLE circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#cd54d7;
+}
+.SOPORTE-MUEBLE circle:hover{
+    stroke-width:40px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTE MUEBLE*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTE PARED5*/
+.SOPORTE-PARED5 rect{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#e33c24;
+}
+.SOPORTE-PARED5 rect:hover{
+    stroke-width:40px;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+.SOPORTE-PARED5 g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#e33c24;
+}
+.SOPORTE-PARED5 g:hover{
+    stroke-width:40px;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTE PARED5*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PROCESO SOPORTE MUEBLE*/
+.PROCESO-SOPORTE-MUEBLE{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#cd54d7;
+}
+.PROCESO-SOPORTE-MUEBLE circle{
+    stroke-width:10px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+.PROCESO-SOPORTE-MUEBLE circle:hover{
+    stroke-width:50px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+.PROCESO-SOPORTE-MUEBLE a{
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+    fill-opacity: 0.1;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO PROCESO SOPORTE MUEBLE*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PROCESO PUNTILLAS*/
+.PROCESO-PUNTILLAS circle{
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+.PROCESO-PUNTILLAS circle:hover{
+    stroke-width:50px;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+.PROCESO-PUNTILLAS a{
+    stroke:#033895;
+    cursor: pointer;
+    transition: 0.9s ease;
+    fill-opacity: 0.1;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO PROCESO PUNTILLAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PROCESO SOPORTE PARED*/
+.PROCESO-SOPORTE-PARED circle{
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+.PROCESO-SOPORTE-PARED circle:hover{
+    stroke-width:50px;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+.PROCESO-SOPORTE-PARED a{
+    stroke:#e33c24;
+    cursor: pointer;
+    transition: 0.9s ease;
+    fill-opacity: 0.1;
+}
+/*FIN  COLOR Y HOVER CONTORNO OBJETO PROCESO SOPORTE PARED*/
+
+/*FIN CUARTO MODULO INSTRUCTION RESPALDO*/
+
+.informacion{
+    text-align: left;
+    font-family: Neuton;
+}
+
+.pato{
+    margin-left: 83%;
+}
+
+
+.FRONTAL-BACKK g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#c874e9;
+}
+.FRONTAL-BACKK g:hover{
+    stroke-width:70px;
+    stroke:#c874e9;
+    transition: 0.9s ease;
+}
+
+.LATERALESS g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#c874e9;
+}
+.LATERALESS g:hover{
+    stroke-width:70px;
+    stroke:#c874e9;
+    transition: 0.9s ease;
+}
+
+.COVER-FRONTAL-BOX g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#c874e9;
+}
+.COVER-FRONTAL-BOX g:hover{
+    stroke-width:70px;
+    stroke:#c874e9;
+    transition: 0.9s ease;
+}
+
+.SELECTOR-ELEMENTOS-MADERA-SUBB ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#c874e9;
+}
+.SELECTOR-ELEMENTOS-MADERA-SUBB ellipse:hover{
+    stroke-width:70px;
+    stroke:#c874e9;
+    transition: 0.9s ease;
+}
+
+.TRIPLEXX g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#5a76f1;
+}
+.TRIPLEXX g:hover{
+    stroke-width:70px;
+    stroke:#5a76f1;
+    transition: 0.9s ease;
+}
+
+.SELECTOR-TRIPLEXX ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#5a76f1;
+}
+.SELECTOR-TRIPLEXX ellipse:hover{
+    stroke-width:70px;
+    stroke:#5a76f1;
+    transition: 0.9s ease;
+}
+
+.PUNTILLASS circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#bcec38;
+}
+.PUNTILLASS circle:hover{
+    stroke-width:70px;
+    stroke:#bcec38;
+    transition: 0.9s ease;
+}
+
+.RIELES .nane{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#7ce453;
+}
+.RIELES .nane:hover{
+    stroke-width:70px;
+    stroke:#7ce453;
+    transition: 0.9s ease;
+}
+
+.TORNILLOSS circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#38b3ec;
+}
+.TORNILLOSS circle:hover{
+    stroke-width:70px;
+    stroke:#38b3ec;
+    transition: 0.9s ease;
+}
+
+.buttons {
+    display: flex;
+    justify-content:space-between;
+   
+  }
+
+  .buttons a {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    background: #202020;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    margin: 5px;
+
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.3);
+    fill: #ffffff;
+    transition: all .4s ease-in-out;
+   
+  }
+
+  .buttons svg{
+    width: 100px;
+    height: 110px;
+    fill: #b4b4b4 !important;
+    transition: all .4s ease-in-out;
+    fill-opacity: 100;
+   
+  }
+
+  .buttons svg:hover{
+    width: 110px;
+    height: 110px;
+    fill: #cc0e0e !important;
+    transition: all .4s ease-in-out;
+
+    fill-opacity: 0;
+    animation: animacionSVG 10s ease-out forwards;
+  }
+
+
+  .buttons svg{
+    margin-top:4px ;
+    
+  }
+@keyframes animacionSVG {
+    to{
+        fill-opacity: 20;
+    }
+    
+}
+
+  
